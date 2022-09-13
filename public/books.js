@@ -72,7 +72,6 @@ var updateBook = function (req, res) {
                 res.writeHead(400)
                 res.end('An error occured')
             }
-            // console.log(book);
 
 
             // finding an ID
@@ -123,7 +122,6 @@ var deleteBook = function (req, res) {
                 res.writeHead(400)
                 res.end('An error occured')
             }
-            // console.log(book);
 
 
             // finding an ID

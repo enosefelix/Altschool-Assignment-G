@@ -41,7 +41,6 @@ var createUser = function (req, res) {
             }
             var parsedBody = Buffer.concat(body).toString();
             var newUser = JSON.parse(parsedBody);
-            // console.log(newBook);
 
             // adding an ID
             var lastUser = database[database.length - 1];
