@@ -30,7 +30,6 @@ var addBook = function (req, res) {
             }
             var parsedBody = Buffer.concat(body).toString();
             var newBook = JSON.parse(parsedBody);
-            // console.log(newBook);
 
             // adding an ID
             var lastBook = database[database.length - 1];
